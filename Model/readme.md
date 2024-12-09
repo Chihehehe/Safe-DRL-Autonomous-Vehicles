@@ -1,6 +1,6 @@
 A2C
-
-![image](https://github.com/user-attachments/assets/e1a65155-553e-4c8d-bd3e-dd78943b35bf)
+![image](https://github.com/user-attachments/assets/2d92dbe7-cff1-48d7-9cd2-9ec4413bb428)
+![image](https://github.com/user-attachments/assets/a9cd4a1a-c7fb-4561-911d-3abdd6b8c5f2)
 
 
 DDPG
