@@ -46,8 +46,8 @@ The reward function encourages desirable behaviors such as:
 | **A2C**   | ~40                 | ~19         | Stable but rewards plateau early.     |
 | **DDPG**  | ~39.6               | ~25         | High rewards but more fluctuations.   |
 | **SAC**   | ~39.8               | ~23         | Good performance with some variance.  |
-| **TD3**   | **~39.9**             | **~31**     | Best performance overall. Balanced exploration and exploitation effectively |
-| **PPO**   | 40               | ~5         | Stable but lower rewards.    |
+| **TD3**   | **~39.9**             | **~32**     | Best performance overall. Balanced exploration and exploitation effectively |
+| **PPO**   | 40               | ~10         | Stable but lower rewards.    |
 
 ### Key Insights:
 - **TD3** achieved the highest average reward (~31) and maintained near-max episode lengths (~39.9).
