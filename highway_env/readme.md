@@ -44,15 +44,15 @@ The reward function encourages desirable behaviors such as:
 | Algorithm | Avg. Episode Length | Avg. Reward | Observations                          |
 |-----------|----------------------|-------------|---------------------------------------|
 | **A2C**   | ~40                 | ~19         | Stable but rewards plateau early.     |
-| **DDPG**  | ~39.6               | ~25         | High rewards but more fluctuations.   |
-| **SAC**   | ~39.8               | ~24         | Good performance with some variance.  |
-| **TD3**   | **~40**             | **~31**     | Best performance overall. Balanced exploration and exploitation effectively |
-| **PPO**   | ~39.9               | ~22         | Stable but lower rewards.    |
+| **DDPG**  | ~39.6               | ~31         | High rewards but more fluctuations.   |
+| **SAC**   | ~39.8               | ~23         | Good performance with some variance.  |
+| **TD3**   | **~39.9**             | **~32**     | Best performance overall. Balanced exploration and exploitation effectively |
+| **PPO**   | 40               | ~10         | Stable but lower rewards.    |
 
 ### Key Insights:
-- **TD3** achieved the highest average reward (~28) and maintained near-max episode lengths (~40).
-- **A2C** and **PPO** were stable but offered lower rewards compared to DDPG and TD3.
-- **DDPG** displayed strong rewards but had higher fluctuations, requiring careful tuning.
+- **TD3** achieved the highest average reward (~31) and maintained near-max episode lengths (~39.9).
+- **PPO** were stable but offered lower rewards compared to DDPG and TD3.
+- **DDPG** displayed strong rewards but had higher fluctuations, requiring careful tuning.(reduce learning rate)
 
 ### Performance Plots
 
@@ -65,8 +65,8 @@ The reward function encourages desirable behaviors such as:
 ## Conclusion
 
 After evaluating multiple RL algorithms in the `highway-v0` environment, **TD3** emerged as the best-performing model, showcasing:
-- **Highest Rewards:** ~28 on average.
-- **Longest Episode Lengths:** Consistently around ~40 steps.
+- **Highest Rewards:** ~31 on average.
+- **Longest Episode Lengths:** Consistently around ~39.9 steps.
 - **Suitability for Continuous Action Spaces:** Reliable and efficient.
 
 While other models like **DDPG** and **SAC** showed promise, **TD3**’s performance highlights its robustness and effectiveness in high-dimensional environments.
