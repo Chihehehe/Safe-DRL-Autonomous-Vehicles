@@ -65,6 +65,9 @@ The reward function encourages desirable behaviors such as:
 #### DDPG Performance:
 ![DDPG Reward and Episode Length](assets/DDPG/avg_reward.png)
 
+#### PPO Performance:
+![PPO Reward and Episode Length](assets/PPO/avg_reward.png)
+
 ## Conclusion
 
 After evaluating multiple RL algorithms in the `highway-v0` environment, **TD3** emerged as the best-performing model, showcasing:
