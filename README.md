@@ -3,35 +3,25 @@
 This repository explores **Safe Deep Reinforcement Learning (DRL) for Autonomous Vehicles**, focusing on the impact of computation delay in reinforcement learning-based driving environments.
 
 ## Overview
-This project extends the **`highway-env`** environment to support continuous action spaces (`highway-v1`) and introduces computation delay effects. The goal is to evaluate how delays impact DRL models in autonomous driving, with experiments on algorithms like **DQN, PPO, TD3, and DDPG**.
+This project implements the **`highway-v1`** environment to improve continuous action spaces (from highway-env) and introduces computation delay effects. The goal is to evaluate how delays impact DRL models in autonomous driving, with experiments on algorithms like **DQN, PPO, TD3, and DDPG**.
 
 ## Features
-- **Custom `highway-v1` environment** supporting continuous control.
+- **Custom `highway-v1` environment** improves continuous control.
 - **Computation delay simulation** with exponential and fixed delays.
-- **Comparison of DRL algorithms** (DQN, PPO for discrete; DDPG, TD3 for continuous).
+- **DRL algorithms** (DQN, PPO for discrete; DDPG for continuous).
 - **Performance analysis** under different delay conditions.
 
 ## Installation
-### 1. Clone the repository
-```bash
-git clone https://github.com/Chihehehe/Safe-DRL-Autonomous-Vehicles.git
-cd Safe-DRL-Autonomous-Vehicles
-```
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
 ## Usage
-### Train a DRL agent
-Modify `config.py` to select an algorithm, then run:
-```bash
-python train.py --env highway-v1 --algo DDPG
-```
-### Test a trained agent
-```bash
-python test.py --env highway-v1 --model path_to_model
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Chihehehe/Safe-DRL-Autonomous-Vehicles.git
+   ```
+2. Open the Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+3. Run the `.ipynb` file step by step to train and evaluate DRL models under computation delay.
 
 ## Results
 The results analyze **reward trends, crash rates, and performance drops** under different computation delays. See the **report** for detailed insights.
