@@ -3,7 +3,7 @@
 This repository explores **Safe Deep Reinforcement Learning (DRL) for Autonomous Vehicles**, focusing on the impact of computation delay in reinforcement learning-based driving environments.
 
 ## Overview
-This project implements the **`highway-v1`** environment to improve continuous action spaces (from highway-env) and introduces computation delay effects. The goal is to evaluate how delays impact DRL models in autonomous driving, with experiments on algorithms like **DQN, PPO, TD3, and DDPG**.
+This project implements the **`highway-v1`** environment to improve continuous action spaces (from highway-env) and introduces computation delay effects. The goal is to evaluate how delays impact DRL models in autonomous driving, with experiments on algorithms like **DQN, PPO, and DDPG**.
 
 ## Features
 - **Custom `highway-v1` environment** improves continuous control.
