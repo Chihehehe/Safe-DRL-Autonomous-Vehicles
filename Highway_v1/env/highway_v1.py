@@ -32,7 +32,7 @@ class HighwayEnvV1(AbstractEnv):
             {
                 "observation": {"type": "Kinematics"},
                 "action": {
-                    "type": "DiscreteMetaAction",
+                    "type": "ContinuousAction",
                 },
                 "lanes_count": 4,
                 "vehicles_count": 50,
